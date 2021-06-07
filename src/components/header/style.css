@@ -1,0 +1,60 @@
+
+
+h2{
+    padding-top: 195px;
+    padding-left: 90px;
+    height: 34px;
+    width: 294px;
+    color: #D2AA8D;
+  
+    font-family: 'PT Sans', sans-serif;
+    font-size: 26px;
+    letter-spacing: 6px;
+    line-height: 84px;
+}
+
+h1{
+    padding-left: 90px;
+    height: 248px;
+    width: 617px;
+    color: #D2AA8D;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 78px;
+}
+
+nav {
+    height: 20px;
+    width: 860px;
+    font-family: Gibson;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    
+}
+.logo {
+    cursor: pointer;
+}
+.nav-links {
+    list-style: none;
+    
+    
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+}
+.nav-links li a {
+    transition:  all 0.3 ease 0s;
+}
+.nav-links  li a:hover {
+    color: #D2AA8D;
+
+}
